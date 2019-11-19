@@ -1,0 +1,19 @@
+Create a navigation menu and name it ProdReco-(whateverproductname).
+
+Add products to it, and the names of the products you want to display.
+
+Edit the HANDLE of the naviation menu to be the same as the HANDLE of the product it's going to be displayed on.
+
+(CSS)
+
+I haven't completed CSS for this, but I have added this to my CSS as a first step, it needs some adjusting for mobile.
+
+.grid-uniform {
+  	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+  
+.product-grid__item-title {
+  	text-align:center;
+}
