@@ -1,8 +1,16 @@
-Create a navigation menu and name it ProdReco-(whateverproductname).
+1) Create snippet called prodreco-dynamic and copy/paste the code from here into it -https://github.com/paulsharer/manual-prod-recos/blob/master/prodreco-dynamic.liquid
 
-Add products to it, and the names of the products you want to display.
+2) Add a unique tag into the product you want to display your recommendations on. Let's call it ProductX
 
-Edit the HANDLE of the naviation menu to be the same as the HANDLE of the product it's going to be displayed on.
+3) Open product.liquid and place the word TEST into it until you find where it displays where you want it. Then, copy the code from here https://github.com/paulsharer/manual-prod-recos/blob/master/put-into-product.liquid
+
+4) Replace 'TAG-OF-PRODUCT-THAT-HOSTS-RECOMMENDATIONS' into the product.liquid code with the tag you added in step 2.
+
+5) Create a navigation menu and name it ProdReco-(whateverproductname).
+
+6) Add products to it, and the names of the products you want to display.
+
+7) Edit the HANDLE of the naviation menu to be the same as the HANDLE of the product it's going to be displayed on.
 
 (CSS)
 
