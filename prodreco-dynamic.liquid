@@ -2,6 +2,11 @@
   Collections are listed here.
 {% endcomment %}
 
+{% comment %}
+ below assign fixes making page think its a different product 
+{% endcomment %}
+{% assign productx = product %}
+
 {% capture uses_minimal_framework %}{% include 'product-loop' %}{% endcapture %}
 
 {% if uses_minimal_framework contains 'Liquid error' %}
@@ -157,3 +162,8 @@
     border-radius: 3px;
   }
 </style>
+
+{% comment %}
+ below assign fixes making page think its a different product 
+{% endcomment %} 
+{% assign product = productx %}
