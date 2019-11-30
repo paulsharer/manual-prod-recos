@@ -1,9 +1,9 @@
 {% comment %}
   HELLO! Conditions for loading product page recommendations below.
-  Step 1 - Add tag to product - reco-productnameorgroupname 
-  Step 2 - Add settings>navigation/linklist - reco-productnameorgroupname
+  Step 1 - Add tag to product - 'reco-productnameorgroupname' AND 'hasreco'
+  Step 2 - Add settings>navigation/linklist - 'reco-productnameorgroupname'
   Step 3 - Add new elseif and assign with the new tag/nav name.
-  Product tag and linklist/navs MUST match.
+  Product tag and linklist/navs MUST match, specifically the 'handle' of nav/linklist.
   {% endcomment %}
 
 {% if product.tags contains 'reco-tag1' %}
