@@ -1,5 +1,3 @@
-  {% if product.tags contains 'TAG-OF-PRODUCT-THAT-HOSTS-RECOMMENDATIONS' %}   
-
-    {% include 'prodreco-dynamic' %}
-  {% endif %}
-    
+ {% if product.tags contains 'hasreco' %}   
+    {% include 'prodreco-master' %}
+    {% endif %}
